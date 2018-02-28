@@ -1,0 +1,174 @@
+#calc_zabor{
+  position: absolute;
+  left: 0px;
+    top: 33.5%;
+z-index:1;
+
+}
+#calc_cokol{
+  position: absolute;
+left: 29.0%;
+  top: 67.4%;
+z-index:2;
+
+}
+#calc_fasad{
+  position: absolute;
+left: 29%;
+  top: 13.7%;
+z-index:3;
+
+}
+
+#calc_nalichnik{
+  position: absolute;
+left: 29.1%;
+  top: 30%;
+z-index:4;
+
+}
+#calc_startplanka{
+  position: absolute;
+  left: 29.1%;
+  top: 67.1%;
+z-index:5;
+
+}
+
+#calc_okna {
+  position: absolute;
+  left: 32.7%;
+  top: 28.9%;
+z-index:6;
+
+}
+#calc_oknanalich {
+  position: absolute;
+  left: 32.7%;
+  top: 28.9%;
+z-index: 7;
+
+}
+#calc_sofity{
+  position: absolute;
+  left: 26.4%;
+  top: 9.3%;
+z-index:11;
+
+}
+#calc_krylco {
+  position: absolute;
+  left: 40.7%;
+  top: 45.8%;
+z-index:9;
+
+}
+
+#calc_krovlya {
+  position: absolute;
+    left: 26.3%;
+  top: 8.4%;
+z-index:10;
+
+}
+
+#calc_vodostok {
+  position: absolute;
+  left: 25.9%;
+  top: 37.8%;
+ z-index:13;
+
+}
+
+#calc_konek {
+  position: absolute;
+  left: 26.5%;
+  top: 8.8%;
+z-index:12;
+
+}
+#calc_vent {
+  position: absolute;
+  left: 50.3%;
+  top: 11.1%;
+z-index:13;
+}
+
+
+#calc_sneg{
+  position: absolute;
+  left: 56%;
+  top: 32.3%;
+z-index:14;
+
+}
+
+#calc_cvetnik{
+  position: absolute;
+  left: 0;
+   top: 38.5%;
+  z-index: 2;
+
+}
+#calc_mansardokna{ 
+  position: absolute;
+left: 33.6%;
+top: 16.8%;
+z-index:15;
+display:none;
+}  
+#calc_ladder{ 
+  position: absolute;
+left: 61.4%;
+    top: 9%;
+z-index:20;
+} 
+#calc_mostik{ 
+  position: absolute;
+    left: 58.1%;
+    top: 20.1%;
+z-index:20;
+} 
+#calc_chimney{ 
+  position: absolute;
+  left: 63.7%;
+  top: 13.5%;
+z-index:21;
+} 
+#calc_dob_chimney{
+	  position: absolute;
+  left: 63.7%;
+  top: 22.7%;
+	z-index:22;
+	}
+#calc_kol_chimney{ 
+  position: absolute;
+left: 63.7%;
+  top: 12.7%;
+  z-index: 23;
+} 
+#calc_loading{
+  position: absolute;
+left: 50%;
+top: 50%;
+z-index:35;
+display:none;
+}  
+#calc_krovlya-garage {
+	display: none;
+}
+#calc_fasad-garage {
+	display: none;
+}
+#calc_nalichnik-garage{
+display:none;
+}
+#calc_konek-garage {
+	display:none;
+}
+#calc_startplanka-garage{
+		display:none;
+}
+#calc_cokol-garage{
+	display:none;
+	}

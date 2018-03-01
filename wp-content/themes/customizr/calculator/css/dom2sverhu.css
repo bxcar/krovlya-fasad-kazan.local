@@ -1,0 +1,162 @@
+#calc_zabor {
+  position: absolute;
+left: 0px;
+top: 47.3%;
+z-index:1;
+
+}
+#calc_cokol {
+  position: absolute;
+left: 16.3%;
+top: 66%;
+z-index:2;
+
+}
+#calc_fasad {
+  position: absolute;
+left: 16.3%;
+top: 24.9%;
+z-index:3;
+
+}
+
+#calc_nalichnik{
+  position: absolute;
+left: 13.05%;
+top: 10.9%;
+z-index:4;
+
+}
+#calc_startplanka{
+  position: absolute;
+left: 16.3%;
+top: 65.1%;
+z-index:5;
+
+}
+
+#calc_okna {
+  position: absolute;
+left: 23.4%;
+top: 28.3%;
+z-index:6;
+
+}
+#calc_oknanalich {
+  position: absolute;
+left: 16.7%;
+top: 27.0%;
+z-index: 7;
+
+
+}
+#calc_sofity{
+  position: absolute;
+left: 12.25%;
+top: 7.1%;
+z-index:8;
+
+
+}
+#calc_krylco {
+  position: absolute;
+left: 15.4%;
+top: 37.3%;
+z-index:9;
+
+}
+
+#calc_krovlya {
+  position: absolute;
+left: 17.7%;
+top: 8.1%;
+z-index:10;
+
+}
+
+#calc_vodostok {
+  position: absolute;
+left: 13%;
+top: 34.7%;
+ z-index:10;
+
+}
+
+#calc_konek {
+  position: absolute;
+left: 12.8%;
+top: 7.7%;
+z-index:12;
+
+}
+#calc_vent {
+  position: absolute;
+left: 28.1%;
+top: 7.9%;
+z-index:13;
+
+}
+
+
+#calc_sneg{
+  position: absolute;
+left: 24.5%;
+top: 13%;
+z-index:14;
+
+}
+
+#calc_cvetnik{
+  position: absolute;
+display:none;
+left: 37%;
+top: 81.8%;
+z-index:15;
+
+}
+#calc_mansardokna{
+  position: absolute;
+left: 35.2%;
+top: 15.4%;
+z-index:15;
+
+}
+#calc_chimney{ 
+display: none;
+}
+#calc_dob_chimney{
+	display: none;
+}
+#calc_ladder {
+	display: none;
+}
+#calc_kol_chimney{ 
+		display: none;
+}
+#calc_loading{
+position:absolute;
+left:50%;
+top:50%;
+z-index:35;}
+
+#calc_krovlya-garage {
+	display: none;
+}
+#calc_fasad-garage {
+	display: none;
+}
+#calc_nalichnik-garage{
+	display:none;
+}
+#calc_konek-garage {
+	display:none;
+}
+#calc_startplanka-garage{
+		display:none;
+}
+#calc_cokol-garage{
+	display:none;
+	}
+#calc_mostik{ 
+display:none;
+} 

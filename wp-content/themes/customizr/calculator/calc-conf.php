@@ -1716,13 +1716,13 @@
       </div>
     </div>
     <!-- end #columnparams-->
- <div id="original_link" style="z-index: 20;display: none;background-color:#fff;position: fixed; left: 90px;bottom:0px;width: 250px; height:25px;"><a href="http://grandline.ru/calculator" target="blank" style="color: #004AE8;position: absolute;bottom: 2px;margin-left: 100px;" alt="Подбор кровли, фасада Grabdline" title="Подбор кровли, фасада Grabdline">grandline.ru/calculator</a><div id="vk_like"></div>
+ <div id="original_link" style="z-index: 20;/*display: none;*/background-color:#fff;position: fixed; left: 90px;bottom:0px;width: 250px; height:25px;"><a href="https://vk.com/public160361618" target="blank" style="color: #004AE8;position: absolute;bottom: 2px;margin-left: 100px;" alt="Подбор кровли, фасада Grabdline" title="Подбор кровли, фасада">vk.com/public160361618</a><div id="vk_like"></div>
 
 
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
 
 <script type="text/javascript">
-  VK.init({apiId: 5005544, onlyWidgets: true});
+  VK.init({apiId: 6392849, onlyWidgets: true});
  </script> 
  
  

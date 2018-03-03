@@ -1,90 +1,23 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="ru" xml:lang="ru">
 <head>
-    <title>Дизайн экстерьера online — GrandLine</title>
+    <title>Дизайн экстерьера online</title>
     <meta name="description"
-          content="Grand Line калькулятор - производство и продажа материалов для кровельных работ. Расчет стоимости крыши для частных и загородных домов, коттеджей, офисных и производственных помещений. Широкий выбор материалов и расцветок. Оперативная доставка, Иллюстрированный каталог"/>
+          content="Калькулятор - производство и продажа материалов для кровельных работ. Расчет стоимости крыши для частных и загородных домов, коттеджей, офисных и производственных помещений. Широкий выбор материалов и расцветок. Оперативная доставка, Иллюстрированный каталог"/>
     <meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT"/>
     <meta http-equiv="Pragma" content="no-cache"/>
     <meta name="keywords"
-          content="калькулятор grandline, дизайн экстерьера online, кровля, фасады, ограждения, кровельные материалы"/>
+          content="калькулятор, дизайн экстерьера online, кровля, фасады, ограждения, кровельные материалы"/>
     <meta charset="utf-8"/>
     <link href="<?= get_template_directory_uri(); ?>/calculator/css/style2.css?040417" rel="stylesheet"
           type="text/css"/>
     <link type="text/css" href="<?= get_template_directory_uri(); ?>/calculator/css/dom8sverhu.css?040417"
           rel="stylesheet" id="domcsssverhu"/>
+    <link rel="icon" href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/wp-content/uploads/cropped-logo-2-32x32.png" sizes="32x32" />
+    <link rel="icon" href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/wp-content/uploads/cropped-logo-2-192x192.png" sizes="192x192" />
     <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/calculator/js/jquery.min.js"></script>
     <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/calculator/js/jquery.ba-bbq.js"></script>
     <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/calculator/js/newvinil.js?040417"></script>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-47846861-6', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-    <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-16418199-17']);
-        _gaq.push(['_setDomainName', '.grandline.ru']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-
-    </script>
-    <script type="text/javascript">
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function () {
-                try {
-                    w.yaCounter6754453 = new Ya.Metrika({
-                        id: 6754453,
-                        webvisor: true,
-                        clickmap: true,
-                        trackLinks: true,
-                        accurateTrackBounce: true
-                    });
-                } catch (e) {
-                }
-            });
-
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () {
-                    n.parentNode.insertBefore(s, n);
-                };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else {
-                f();
-            }
-        })(document, window, "yandex_metrika_callbacks");
-    </script>
-    <noscript>
-        <div><img src="//mc.yandex.ru/watch/6754453" style="position:absolute; left:-9999px;" alt=""/></div>
-    </noscript>
-
 </head>
 <body>
 <div id="columnmenu">
@@ -115,17 +48,12 @@
     <div id="podborsettings" class="podborcell" style="display:none;">
         <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/podborsettingsdemo.png"/>
     </div>
-    <div id="grandline">
+    <!--<div id="grandline">
         <a href="http://grandline.ru" target="blank"
            alt="Grand Line — производство и продажа материалов для строительных и отделочных работ"
            title="Grand Line — производство и продажа материалов для строительных и отделочных работ"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/online/mnlg.png"/></a>
-    </div>
-    <style>
-        #grandline {
-            display: none;
-        }
-    </style>
+                    src="<?/*= get_template_directory_uri(); */?>/calculator/img/online/mnlg.png"/></a>
+    </div>-->
 </div>
 <!-- end #columnmenu-->
 <div id="rowshablontop" style="display: none;">
@@ -511,7 +439,7 @@
 
         <div class="podborrow zagolovok">Композитная черепица</div>
         <div class="podborrow">
-            <div class="ptrelem ptr4" id="komposit_grandline" data-description="Композитная черепица Grand Line">
+            <div class="ptrelem ptr4" id="komposit_grandline" data-description="Композитная черепица">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -1501,7 +1429,7 @@
         <div class="podborrow zagolovokcell" id="tipzabortext">Тип ограждения</div>
         <div class="podborrow zagolovok">Модульное ограждение</div>
         <div class="podborrow">
-            <div class="ptrelem ptr1" id="modul_premplus" data-description="Grand Line Премиум Плюс">
+            <div class="ptrelem ptr1" id="modul_premplus" data-description="Премиум Плюс">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -1520,7 +1448,7 @@
         <div class="podborrow zagolovokcell" id="tipvodostoktext">Водосточные системы</div>
 
         <div class="podborrow">
-            <div class="ptrelem ptr1" id="gl12590" data-description="Grand Line 125x90">
+            <div class="ptrelem ptr1" id="gl12590" data-description="125x90">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -1771,6 +1699,11 @@
                 </tbody>
             </table>
         </div>
+        <style>
+            #par_fasad a:nth-child(2) {
+                display: none;
+            }
+        </style>
         <!--<div style="width: 100%; padding-left: 10px; height:30px; background-color: #fff; display: none;">
             <table style="width: 300px;">
                 <tbody>
@@ -1787,20 +1720,20 @@
                 </tbody>
             </table>
         </div>-->
-        <div style="width: 100%; padding-left: 10px; height:30px; background-color: #fff;">
+        <!--<div style="width: 100%; padding-left: 10px; height:30px; background-color: #fff;">
             <table style="width: 300px;">
                 <tbody>
                 <tr>
                     <td><a class="rili" href="http://shop.grandline.ru/roofcalc/" target="blank"
                            alt="Расчёт и раскладка кровли online" title="Расчёт и раскладка кровли online"><img
-                                    src="<?= get_template_directory_uri(); ?>/calculator/img/online/roofing.png"
+                                    src="<?/*= get_template_directory_uri(); */?>/calculator/img/online/roofing.png"
                                     style="width: 25px; height: 25px;"/><span
                                     style="position: relative;bottom: 7px;margin-left: 3px;" class="rvlink">Расчёт и раскладка кровли online</span></a>
                     </td>
                 </tr>
                 </tbody>
             </table>
-        </div>
+        </div>-->
     </div>
 </div>
 <!-- end #columnparams-->

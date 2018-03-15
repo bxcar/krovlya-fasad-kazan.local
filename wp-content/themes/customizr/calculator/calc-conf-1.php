@@ -1,30 +1,77 @@
+<?php /* Template Name: configurator */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="ru" xml:lang="ru">
 <head>
-    <title>Дизайн экстерьера online</title>
+    <title>Дизайн экстерьера online — GrandLine</title>
     <meta name="description"
-          content="Калькулятор - производство и продажа материалов для кровельных работ. Расчет стоимости крыши для частных и загородных домов, коттеджей, офисных и производственных помещений. Широкий выбор материалов и расцветок. Оперативная доставка, Иллюстрированный каталог"/>
+          content="Grand Line калькулятор - производство и продажа материалов для кровельных работ. Расчет стоимости крыши для частных и загородных домов, коттеджей, офисных и производственных помещений. Широкий выбор материалов и расцветок. Оперативная доставка, Иллюстрированный каталог"/>
     <meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT"/>
     <meta http-equiv="Pragma" content="no-cache"/>
     <meta name="keywords"
-          content="калькулятор, дизайн экстерьера online, кровля, фасады, ограждения, кровельные материалы"/>
+          content="калькулятор grandline, дизайн экстерьера online, кровля, фасады, ограждения, кровельные материалы"/>
     <meta charset="utf-8"/>
-    <link href="<?= get_template_directory_uri(); ?>/calculator/css/style2.css?040417" rel="stylesheet"
+    <link href="<?= get_template_directory_uri(); ?>/calculator/css/style2.css?27122017" rel="stylesheet"
           type="text/css"/>
-    <link type="text/css" href="<?= get_template_directory_uri(); ?>/calculator/css/dom8sverhu.css?040417"
+    <link type="text/css" href="<?= get_template_directory_uri(); ?>/calculator/css/dom1sverhu.css?27122017"
           rel="stylesheet" id="domcsssverhu"/>
-    <link rel="icon" href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/wp-content/uploads/cropped-logo-2-32x32.png" sizes="32x32" />
-    <link rel="icon" href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/wp-content/uploads/cropped-logo-2-192x192.png" sizes="192x192" />
     <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/calculator/js/jquery.min.js"></script>
     <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/calculator/js/jquery.ba-bbq.js"></script>
-    <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/calculator/js/newvinil.js?040417"></script>
-    <!--<script type="text/javascript" src="<?/*= get_template_directory_uri(); */?>/calculator/js/config.js?27122017"></script>
-    <script type="text/javascript" src="<?/*= get_template_directory_uri(); */?>/calculator/js/doma2018_1.js?27122017"></script>-->
-<style>
-    #calc_loading {
-    display: none !important;
-    }
-</style>
+    <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/calculator/js/config.js?27122017"></script>
+    <script type="text/javascript"
+            src="<?= get_template_directory_uri(); ?>/calculator/js/doma2018_1.js?27122017"></script>
+
+
+    <!--
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-47846861-6', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-16418199-17']);
+    _gaq.push(['_setDomainName', '.grandline.ru']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+      <script type="text/javascript">
+      (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+              try {
+                  w.yaCounter6754453 = new Ya.Metrika({id:6754453,
+                          webvisor:true,
+                          clickmap:true,
+                          trackLinks:true,
+                          accurateTrackBounce:true});
+              } catch(e) { }
+          });
+
+          var n = d.getElementsByTagName("script")[0],
+              s = d.createElement("script"),
+              f = function () { n.parentNode.insertBefore(s, n); };
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+          if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+          } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+      </script>
+  <noscript><div><img src="//mc.yandex.ru/watch/6754453" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    -->
 </head>
 <body>
 <div id="columnmenu">
@@ -55,11 +102,8 @@
     <div id="podborsettings" class="podborcell" style="display:none;">
         <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/podborsettingsdemo.png"/>
     </div>
-    <!--<div id="grandline">
-        <a href="http://grandline.ru" target="blank"
-           alt="Grand Line — производство и продажа материалов для строительных и отделочных работ"
-           title="Grand Line — производство и продажа материалов для строительных и отделочных работ"><img
-                    src="<?/*= get_template_directory_uri(); */?>/calculator/img/online/mnlg.png"/></a>
+    <!--<div id="grandline"  >
+        <a href="http://grandline.ru" target="blank" alt="Grand Line — производство и продажа материалов для строительных и отделочных работ" title="Grand Line — производство и продажа материалов для строительных и отделочных работ"><img src="<? /*= get_template_directory_uri(); */ ?>/calculator/img/online/mnlg.png" /></a>
     </div>-->
 </div>
 <!-- end #columnmenu-->
@@ -70,7 +114,7 @@
 <div id="rowshablonbottom" style="display: none;">
     <div id="domchlistzagolovok" class="zagolovokcell">1. Выберите дом &nbsp;&nbsp;&nbsp;&nbsp; 2. Выберите шаблон</div>
     <div id="domchlist">
-        <div id="domch01" class="domch"><img
+        <div id="domch01" class="domch active"><img
                     src="<?= get_template_directory_uri(); ?>/calculator/img/online/dom1vid1ch.png"/></div>
         <div id="domch02" class="domch"><img
                     src="<?= get_template_directory_uri(); ?>/calculator/img/online/dom2vid1ch.png"/></div>
@@ -80,7 +124,7 @@
                     src="<?= get_template_directory_uri(); ?>/calculator/img/online/dom4vid1ch.png"/></div>
         <div id="domch06" class="domch"><img
                     src="<?= get_template_directory_uri(); ?>/calculator/img/online/dom6vid1ch.png"/></div>
-        <div id="domch08" class="domch active"><img
+        <div id="domch08" class="domch"><img
                     src="<?= get_template_directory_uri(); ?>/calculator/img/online/dom8vid1ch.png"/></div>
     </div>
     <div id="bottomleftarr" class="shbottomarr"><img
@@ -90,41 +134,31 @@
         <div id="tcs001" class="shdom first active"><img
                     src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/001.jpg"/></div>
         <div id="tcs013" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/013.jpg"/></div>
+                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/013.jpg"/></div>
         <div id="tcs003" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/003.jpg"/></div>
+                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/003.jpg"/></div>
 
         <div id="tcs014" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/014.jpg"/></div>
+                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/014.jpg"/></div>
         <div id="tcs012" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/012.jpg"/></div>
+                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/012.jpg"/></div>
 
-        <div id="tcs015" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/015.jpg"/></div>
+
         <div id="tcs007" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/007.jpg"/></div>
+                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/007.jpg"/></div>
 
-        <div id="tcs016" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/016.jpg"/></div>
+
         <div id="tcs009" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/009.jpg"/></div>
+                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/009.jpg"/></div>
 
-        <div id="tcs017" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/017.jpg"/></div>
-        <div id="tcs011" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/011.jpg"/></div>
         <div id="tcs002" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/002.jpg"/></div>
+                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/002.jpg"/></div>
         <div id="tcs004" class="shdom "><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/004.jpg"/></div>
-        <div id="tcs005" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/005.jpg"/></div>
-        <div id="tcs006" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/006.jpg"/></div>
-        <div id="tcs008" class="shdom"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/008.jpg"/></div>
-        <div id="tcs010" class="shdom last"><img
-                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom8vid1/010.jpg"/></div>
+                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/004.jpg"/></div>
+
+        <div id="tcs006" class="shdom last"><img
+                    src="<?= get_template_directory_uri(); ?>/calculator/img/sh/dom1vid1/006.jpg"/></div>
+
 
     </div>
     <div id="bottomrightarr" class="shbottomarr"><img
@@ -160,6 +194,7 @@
     </div>
     <div id="podbortypeprofil" class="podborcell">
         <div class="podborrow zagolovokcell" id="tipproftext">Тип профиля</div>
+
         <div class="podborrow zagolovok">Металлический сайдинг</div>
         <div class="podborrow">
             <div class="ptrelem ptr4" id="metal_ecobrus" data-description="Металлический сайдинг «ЭкоБрус GL»">
@@ -214,7 +249,7 @@
         </div>
         <div class="podborrow zagolovok">Виниловый сайдинг</div>
         <div class="podborrow">
-            <div class="ptrelem ptr4" id="vinil_d4" data-description="Виниловый сайдинг D4">
+            <div class="ptrelem ptr4" id="vinil_d4" data-description="Корабельный брус слим">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -226,7 +261,7 @@
                 </div>
                 <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/fasad_vinil_d4.png" alt=""/>
             </div>
-            <div class="ptrelem ptr4" id="vinil_d44" data-description="Виниловый сайдинг D4,4">
+            <div class="ptrelem ptr4" id="vinil_d44" data-description="Корабельный брус">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -238,7 +273,7 @@
                 </div>
                 <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/fasad_vinil_d44.png" alt=""/>
             </div>
-            <div class="ptrelem ptr4" id="vinil_blockhouse" data-description="Виниловый сайдинг «Блок-хаус» D4,8">
+            <div class="ptrelem ptr4" id="vinil_blockhouse" data-description="Блок-хаус">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -251,7 +286,7 @@
                 <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/fasad_vinil_blockhouse.png"
                      alt=""/>
             </div>
-            <div class="ptrelem ptr4" id="vinil_vertical" data-description="Виниловый вертикальный сайдинг S6,3">
+            <div class="ptrelem ptr4" id="vinil_vertical" data-description="Вертикальный сайдинг">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -280,11 +315,14 @@
             </div>
         </div>
     </div>
+
     <div id="podbortypekrovlya" class="podborcell">
         <div class="podborrow zagolovokcell" id="tipkrovlitext">Тип кровли</div>
+
+
         <div class="podborrow zagolovok">Металлочерепица</div>
         <div class="podborrow">
-            <div class="ptrelem ptr4" id="metal_kvinta" data-description="Металлочерепица Kvinta">
+            <div class="ptrelem ptr4" id="metal_kvintaplus" data-description="Металлочерепица Kvinta Plus">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -294,7 +332,8 @@
                 <div class="overlayd">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/krovlya_metal_kvinta.png" alt=""/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/krovlya_metal_kvintaplus.png"
+                     alt=""/>
             </div>
             <div class="ptrelem ptr4" id="metal_classic" data-description="Металлочерепица Classic">
                 <div class="frame">
@@ -333,6 +372,8 @@
                 <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/krovlya_metal_quadro.png" alt=""/>
             </div>
         </div>
+
+
         <div class="podborrow zagolovok">Фальцевая кровля</div>
         <div class="podborrow">
             <div class="ptrelem ptr4" id="falcevaya_klickfalc" data-description="Фальцевая кровля Кликфальц">
@@ -446,7 +487,7 @@
 
         <div class="podborrow zagolovok">Композитная черепица</div>
         <div class="podborrow">
-            <div class="ptrelem ptr4" id="komposit_grandline" data-description="Композитная черепица">
+            <div class="ptrelem ptr4" id="komposit_grandline" data-description="Композитная черепица Grand Line">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -460,15 +501,15 @@
             </div>
         </div>
 
-
         <div class="podborrow zagolovok" style="display: none;">Композитная черепица</div>
         <div class="podborrow zagolovok" style="display: none;">Мягкая кровля</div>
     </div>
     <!-- end podbortypekrovlya-->
     <div id="podbortypepokr" class="podborcell">
         <div class="podborrow zagolovokcell" id="tippokrtext">Тип покрытия</div>
+
         <div class="podborrow">
-            <div class="ptrelem ptr5round" id="solano" data-description="Solano">
+            <div class="ptrelem ptr5round" id="quarzit" data-description="Quarzit">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
                 </div>
@@ -478,9 +519,9 @@
                 <div class="overlayd">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/solano.png" alt=""/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/quarzit.png" alt=""/>
             </div>
-            <div class="ptrelem ptr5round" id="quarzit35" data-description="Quarzit (Quarzit 35)">
+            <div class="ptrelem ptr5round" id="quarzitlite" data-description="Quarzit Lite">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
                 </div>
@@ -490,9 +531,9 @@
                 <div class="overlayd">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/quarzit35.png" alt=""/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/quarzitlite.png" alt=""/>
             </div>
-            <div class="ptrelem ptr5round" id="quarzit30" data-description="Quarzit Lite (Quarzit 30)">
+            <div class="ptrelem ptr5round" id="quarzitmatt" data-description="Quarzit Matt">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
                 </div>
@@ -502,19 +543,7 @@
                 <div class="overlayd">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/quarzit30.png" alt=""/>
-            </div>
-            <div class="ptrelem ptr5round" id="granite" data-description="Granite">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
-                </div>
-                <div class="framegrey">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round_grey.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/granite.png" alt=""/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/quarzitmatt.png" alt=""/>
             </div>
             <div class="ptrelem ptr5round" id="colorityprint" data-description="Colority Print">
                 <div class="frame">
@@ -527,6 +556,18 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
                 <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/colorityprint.png" alt=""/>
+            </div>
+            <div class="ptrelem ptr5round" id="colorityprintdp" data-description="Colority Print double">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
+                </div>
+                <div class="framegrey">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round_grey.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/colorityprintdp.png" alt=""/>
             </div>
             <div class="ptrelem ptr5round" id="safari" data-description="Safari">
                 <div class="frame">
@@ -552,18 +593,6 @@
                 </div>
                 <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/velur.png" alt=""/>
             </div>
-            <div class="ptrelem ptr5round" id="poliester" data-description="Полиэстер">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
-                </div>
-                <div class="framegrey">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round_grey.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/poliester.png" alt=""/>
-            </div>
             <div class="ptrelem ptr5round" id="cinkpokr" data-description="Цинк">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
@@ -575,6 +604,78 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
                 <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/cinkpokr.png" alt=""/>
+            </div>
+            <div class="ptrelem ptr5round" id="atlas" data-description="Atlas">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
+                </div>
+                <div class="framegrey">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round_grey.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/atlas.png" alt=""/>
+            </div>
+            <div class="ptrelem ptr5round" id="greencoatpural" data-description="GreenCoat Pural">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
+                </div>
+                <div class="framegrey">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round_grey.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/greencoatpural.png" alt=""/>
+            </div>
+            <div class="ptrelem ptr5round" id="greencoatpuralmatt" data-description="GreenCoat Pural Matt">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
+                </div>
+                <div class="framegrey">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round_grey.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/greencoatpuralmatt.png" alt=""/>
+            </div>
+            <div class="ptrelem ptr5round" id="polydexter" data-description="Polydexter">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
+                </div>
+                <div class="framegrey">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round_grey.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/polydexter.png" alt=""/>
+            </div>
+            <div class="ptrelem ptr5round" id="satin" data-description="Satin">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
+                </div>
+                <div class="framegrey">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round_grey.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/satin.png" alt=""/>
+            </div>
+            <div class="ptrelem ptr5round" id="drap" data-description="Drap">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round.png" alt=""/>
+                </div>
+                <div class="framegrey">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_round_grey.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/drap.png" alt=""/>
             </div>
         </div>
     </div>
@@ -689,33 +790,11 @@
     </div>
     <div id="podborcolor" class="podborcell">
         <div class="podborrow zagolovokcell" id="tipcolortext">Доступные цвета</div>
+
         <div class="podborrow cfor" id="cformetal">для металла</div>
+
         <div class="podborrow" id="podborcolormetal">
-            <div id="ral1014" class="ptrelem ptr7" style="background-color: #E9D097;" data-description="RAL 1014">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
             <div id="ral1015" class="ptrelem ptr7" style="background-color: #EAD9AD;" data-description="RAL 1015">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="ral1018" class="ptrelem ptr7" style="background-color: #FFF34F;" data-description="RAL 1018">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="ral3003" class="ptrelem ptr7" style="background-color: #9D0B0E;" data-description="RAL 3003">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
                 </div>
@@ -747,15 +826,7 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <!-- <div id="ral5001" class="ptrelem ptr7" style="background-color: #082A45;" data-description="RAL 5001">
-            <div class="frame">
-              <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt="" />
-            </div>
-            <div class="overlayd">
-              <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt="" />
-            </div>
-          </div> -->
-            <div id="ral5002" class="ptrelem ptr7" style="background-color: #013974;" data-description="RAL 5002">
+            <div id="ral5001" class="ptrelem ptr7 n2017" style="background-color: #00445e;" data-description="RAL 5001">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
                 </div>
@@ -763,23 +834,7 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <div id="ral5005" class="ptrelem ptr7" style="background-color: #005387;" data-description="RAL 5005">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="ral5021" class="ptrelem ptr7" style="background-color: #008584;" data-description="RAL 5021">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="ral6002" class="ptrelem ptr7" style="background-color: #1C7349;" data-description="RAL 6002">
+            <div id="ral5005" class="ptrelem ptr7" style="background-color: #065a94;" data-description="RAL 5005">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
                 </div>
@@ -795,15 +850,7 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <div id="ral6019" class="ptrelem ptr7" style="background-color: #A8D7AD;" data-description="RAL 6019">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="ral6029" class="ptrelem ptr7" style="background-color: #018949;" data-description="RAL 6029">
+            <div id="ral6020" class="ptrelem ptr7 n2017" style="background-color: #455645;" data-description="RAL 6020">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
                 </div>
@@ -812,14 +859,6 @@
                 </div>
             </div>
             <div id="ral7004" class="ptrelem ptr7" style="background-color: #9D9EA2;" data-description="RAL 7004">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="ral7005" class="ptrelem ptr7" style="background-color: #5A6A69;" data-description="RAL 7005">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
                 </div>
@@ -851,23 +890,7 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <div id="ral9002" class="ptrelem ptr7" style="background-color: #E6E1CE;" data-description="RAL 9002">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
             <div id="ral9003" class="ptrelem ptr7" style="background-color: #FFF;" data-description="RAL 9003">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="ral9004" class="ptrelem ptr7" style="background-color: #020202;" data-description="RAL 9004">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
                 </div>
@@ -883,14 +906,6 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <div id="ral9006" class="ptrelem ptr7" style="background-color: #A7A8AC;" data-description="RAL 9006">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
             <div id="rr11" class="ptrelem ptr7" style="background-color: #1D3A26;" data-description="RR 11">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
@@ -899,14 +914,22 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <!--  <div id="rr29" class="ptrelem ptr7" style="background-color: #500001;" data-description="RR 29">
-            <div class="frame">
-              <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt="" />
+            <div id="rr23" class="ptrelem ptr7 n2017" style="background-color: #575e65;" data-description="RR 23">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
             </div>
-            <div class="overlayd">
-              <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt="" />
+            <div id="rr29" class="ptrelem ptr7 n2017" style="background-color: #841924;" data-description="RR 29">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
             </div>
-          </div>-->
             <div id="rr32" class="ptrelem ptr7" style="background-color: #020003;" data-description="RR 32">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
@@ -915,47 +938,18 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <div id="svetloederevo" class="ptrelem ptr7" data-description="Светлое дерево">
+            <div id="rr750" class="ptrelem ptr7 n2017" style="background-color: #ab5436;" data-description="RR 750">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
                 </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/svetloederevo.png" alt=""/>
                 <div class="overlayd">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <!-- <div id="korten" class="ptrelem ptr7"  data-description="Кортен">
-            <div class="frame">
-              <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt="" />
-            </div>
-            <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/korten.png" alt="" />
-            <div class="overlayd">
-              <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt="" />
-            </div>
-          </div> -->
-            <div id="kamenpes" class="ptrelem ptr7" data-description="Камень-песчаник">
+            <div id="rr887" class="ptrelem ptr7 n2017" style="background-color: #50322b;" data-description="RR 887">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
                 </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/kamenpes.png" alt=""/>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="kamen" class="ptrelem ptr7" data-description="Камень">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/kamen.png" alt=""/>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="brazilv" class="ptrelem ptr7" data-description="Бразильская вишня">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/brazilv.png" alt=""/>
                 <div class="overlayd">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
@@ -969,14 +963,6 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <div id="blue" class="ptrelem ptr7" style="background-color: #16385B;" data-description="Голубой">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
             <div id="brown" class="ptrelem ptr7" style="background-color: #372823;" data-description="Коричневый">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
@@ -985,57 +971,7 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <div id="green" class="ptrelem ptr7" style="background-color: #213F1D;" data-description="Зелёный">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="grey" class="ptrelem ptr7" style="background-color: #42413D;" data-description="Серый">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
             <div id="orange" class="ptrelem ptr7" style="background-color: #7C432C;" data-description="Оранжевый">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="pink" class="ptrelem ptr7" style="background-color: #6C3938;" data-description="Розовый">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="burano" class="ptrelem ptr7" style="background-color: #840D23;" data-description="Burano">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="chocolatebrn" class="ptrelem ptr7" style="background-color: #5f1013;"
-                 data-description="Chocolate Brown">
-                <div class="frame">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
-                </div>
-                <div class="overlayd">
-                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
-                </div>
-            </div>
-            <div id="junipergrn" class="ptrelem ptr7" style="background-color: #2A5446;"
-                 data-description="Juniper Green">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
                 </div>
@@ -1068,8 +1004,38 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
+            <div id="cherrywood" class="ptrelem ptr7 n2017" style="background-color: #02ff02;"
+                 data-description="Бразильская вишня">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/cherrywood.png" alt="">
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+            </div>
+            <div id="finestone" class="ptrelem ptr7 n2017" style="background-color: #02ff02;" data-description="Камень">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/finestone.png" alt="">
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+            </div>
+            <div id="sandstone" class="ptrelem ptr7 n2017" style="background-color: #02ff02;"
+                 data-description="Камень-песчаник">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
+                </div>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/sandstone.png" alt="">
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
+            </div>
         </div>
         <div class="podborrow cfor" id="cforvinil">для винила</div>
+
         <div class="podborrow" id="podborcolorvinil">
 
             <div id="vgoldpes" class="ptrelem ptr7" style="background-color: #FCE3AB;"
@@ -1149,14 +1115,14 @@
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
                 </div>
             </div>
-            <!--   <div id="morendub" class="ptrelem ptr7" style="background-color: #483A3A;" data-description="Дуб мореный">
-            <div class="frame">
-              <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt="" />
+            <div id="morendub" class="ptrelem ptr7" style="background-color: #483A3A;" data-description="Дуб мореный">
+                <div class="frame">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
+                </div>
+                <div class="overlayd">
+                    <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt=""/>
+                </div>
             </div>
-            <div class="overlayd">
-              <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/overlay_3030.png" alt="" />
-            </div>
-          </div> -->
             <div id="pers" class="ptrelem ptr7" style="background-color: #E3CDBA;" data-description="Персиковый">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_3636.png" alt=""/>
@@ -1191,7 +1157,6 @@
             </div>
 
         </div>
-        <!--  <div class="podborrow cfor" id="cforbrick">для панелей Я-Фасад и кирпича</div> -->
         <div class="podborrow" id="podborcolorbrick">
 
 
@@ -1262,6 +1227,7 @@
 
 
         <div class="podborrow cfor" id="cforwandstein">для фасадных панелей Wandstein</div>
+
         <div class="podborrow" id="podborcolorwandstein">
             <div id="wsbzh" class="ptrelem ptr7" style="background-color: #8E7B67;" data-description="Бежевый">
                 <div class="frame">
@@ -1362,8 +1328,8 @@
                 </div>
             </div>
         </div>
-
         <div class="podborrow cfor" id="cforkomposit">для композитной черепицы</div>
+
         <div class="podborrow" id="podborcolorkomposit">
 
             <div id="kapuchino" class="ptrelem ptr7" data-description="Капучино">
@@ -1423,8 +1389,6 @@
 
 
         </div>
-
-
     </div>
     <!-- end #podborcolor-->
     <div id="podborinfo" class="podborcell">
@@ -1436,7 +1400,7 @@
         <div class="podborrow zagolovokcell" id="tipzabortext">Тип ограждения</div>
         <div class="podborrow zagolovok">Модульное ограждение</div>
         <div class="podborrow">
-            <div class="ptrelem ptr1" id="modul_premplus" data-description="Премиум Плюс">
+            <div class="ptrelem ptr1" id="modul_premplus" data-description="Grand Line Премиум Плюс">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -1455,7 +1419,7 @@
         <div class="podborrow zagolovokcell" id="tipvodostoktext">Водосточные системы</div>
 
         <div class="podborrow">
-            <div class="ptrelem ptr1" id="gl12590" data-description="125x90">
+            <div class="ptrelem ptr1" id="gl12590" data-description="Grand Line 125x90">
                 <div class="frame">
                     <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/frame_4330.png" alt=""/>
                 </div>
@@ -1556,100 +1520,100 @@
     </div>
 </div>
 <!-- end #columnpodbor-->
-<div id="columnhome" class="dom8vid1">
-    <div id="calc_loading">
+<div id="columnhome" class="dom1vid1">
+    <!--<div id="calc_loading">
         <p style="color:#fff; margin-left:70px;">Загрузка</p>
-        <img src="<?= get_template_directory_uri(); ?>/calculator/img/online/loading.gif"/>
-    </div>
+        <img src="<?php/*= get_template_directory_uri(); */?>/calculator/img/online/loading.gif"/>
+    </div>-->
     <div id="allimages">
-        <img src="/wp-content/themes/customizr/calculator/img/dom/dom8sverhu.jpg" alt="" id="fonimg"/>
+        <img src="<?= get_template_directory_uri(); ?>/calculator/img/dom1sverhu.jpg" alt="" id="fonimg"/>
         <div id="calc_layers">
             <div id="calc_zabor">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/zabor/modul/premplus/ral3005.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/zabor/modul/premplus/ral6005.png"/>
             </div>
             <div id="calc_cokol-garage">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/cokol-garage/cokolprofnastil/c8/poliester/ral3005.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/cokol-garage/cokolprofnastil/c8/edcover/ral8017.png"/>
             </div>
             <div id="calc_cokol">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/cokol/cokolprofnastil/c8/poliester/ral1014.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/cokol/cokolmetal/vertical/edcover/finestone.png"/>
             </div>
 
             <div id="calc_fasad">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/fasad/metal/blockhouse/poliester/ral1015.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/fasad/vinil/d44/bezh.png"/>
             </div>
             <div id="calc_fasad-garage">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/fasad-garage/metal/blockhouse/poliester/ral6019.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/fasad-garage/metal/ecobrus/edcover/ral9003.png"/>
             </div>
 
             <div id="calc_startplanka-garage">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/startplanka-garage/ral5001.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/startplanka-garage/ral8017.png"/>
             </div>
             <div id="calc_startplanka">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/startplanka/burano.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/startplanka/finestone.png"/>
             </div>
 
 
             <div id="calc_nalichnik">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/nalichnikfasad/ral1014.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/nalichnikfasad/bezh.png"/>
             </div>
             <div id="calc_nalichnik-garage">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/nalichnikfasad-garage/ral1014.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/nalichnikfasad-garage/ral9003.png"/>
             </div>
 
 
             <div id="calc_okna">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/oknadveri/okna/white.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/oknadveri/okna/white.png"/>
             </div>
             <div id="calc_oknanalich">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/oknadveri/oknanalich/sofwt.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/oknadveri/oknanalich/sofwt.png"/>
             </div>
             <div id="calc_sofity">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/sofity/sofwt.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/sofity/sofwt.png"/>
             </div>
             <div id="calc_krylco">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/oknadveri/krylco/sofwt.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/oknadveri/krylco/sofwt.png"/>
             </div>
             <div id="calc_krovlya">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/krovlya/metal/classic/poliester/ral5002.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/krovlya/metal/classic/edcover/ral3009.png"/>
             </div>
             <div id="calc_krovlya-garage">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/krovlya-garage/metal/classic/poliester/ral6019.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/krovlya-garage/komposit/grandline/chokolad.png"/>
             </div>
             <div id="calc_vodostok">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/vodostok/gl12590/ral9003.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/vodostok/gl12590/ral9003.png"/>
             </div>
             <div id="calc_konek">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/konek/burano.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/konek/ral3009.png"/>
             </div>
             <div id="calc_konek-garage">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/konek-garage/ral1018.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom4vid1/konek-garage/chokolad.png"/>
             </div>
             <div id="calc_vent">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/vent/rr11.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/vent/ral3009.png"/>
             </div>
             <div id="calc_sneg">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/sneg/ral3003.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/sneg/ral3009.png"/>
             </div>
             <div id="calc_cvetnik">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/dop/cvetnik.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/dop/cvetnik.png"/>
             </div>
             <div id="calc_mansardokna">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/dop/okna.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/dop/okna.png"/>
             </div>
             <div id="calc_ladder">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/ladder/ral9006.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/ladder/ral9006.png"/>
             </div>
             <div id="calc_mostik">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/mostik/ral9006.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/mostik/ral9006.png"/>
             </div>
             <div id="calc_chimney">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/dop/chimney.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/dop/chimney.png"/>
             </div>
             <div id="calc_dob_chimney">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/dob_chimney/dob_chimney.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/dob_chimney/dob_chimney.png"/>
             </div>
             <div id="calc_kol_chimney">
-                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom8vid1/kol_chimney/kol_chimney.png"/>
+                <img src="<?= get_template_directory_uri(); ?>/calculator/img/doma/dom1vid1/kol_chimney/kol_chimney.png"/>
             </div>
         </div>
     </div>
@@ -1706,44 +1670,24 @@
                 </tbody>
             </table>
         </div>
-        <style>
-            #par_fasad a:nth-child(2) {
-                display: none;
-            }
-        </style>
-        <!--<div style="width: 100%; padding-left: 10px; height:30px; background-color: #fff; display: none;">
-            <table style="width: 300px;">
-                <tbody>
-                <tr>
-                    <td><a id="saveimga" class="rili"
-                           href="http://grandline.ru/calculator/php/saveimage.php/?zabor=img/doma/dom8vid1/zabor/modul/premplus/ral6005.png&cokol=img/doma/dom8vid1/cokol/cokolwandstein/dolomit/wsgr.png&cokolgarage=img/doma/dom4vid1/cokol-garage/cokolprofnastil/c8/poliester/ral3005.png&fasad=img/doma/dom8vid1/fasad/vinil/d44/bezh.png&fasadgarage=img/doma/dom4vid1/fasad-garage/metal/blockhouse/poliester/ral6019.png&nalichnikfasad=img/doma/dom8vid1/nalichnikfasad/bezh.png&nalichnikfasadgarage=img/doma/dom4vid1/nalichnikfasad-garage/ral1014.png&startplanka=img/doma/dom8vid1/startplanka/wsgr.png&startplankagarage=img/doma/dom4vid1/startplanka-garage/ral5001.png&okna=img/doma/dom8vid1/oknadveri/okna/white.png&oknanalich=img/doma/dom8vid1/oknadveri/oknanalich/sofwt.png&sofity=img/doma/dom8vid1/sofity/sofwt.png&krylco=img/doma/dom8vid1/oknadveri/krylco/sofwt.png&krovlya=img/doma/dom8vid1/krovlya/metal/classic/poliester/ral3009.png&krovlyagarage=img/doma/dom4vid1/krovlya-garage/metal/classic/poliester/ral6019.png&vodostok=img/doma/dom8vid1/vodostok/gl12590/ral9003.png&konek=img/doma/dom8vid1/konek/ral3009.png&konekgarage=img/doma/dom4vid1/konek-garage/ral1018.png&vent=img/doma/dom8vid1/vent/ral3009.png&sneg=img/doma/dom8vid1/sneg/ral3009.png&cvetnik=img/doma/dom8vid1/dop/cvetnik.png&mansardokna=img/doma/dom8vid1/dop/okna.png&domnvidn=dom8vid1"
-                           target="_blank" rel="nofollow" alt="Скачать изображение дома"
-                           title="Скачать изображение дома"><img
-                                    src="<?php/*= get_template_directory_uri(); */?>/calculator/img/online/download.png"
-                                    style="width: 25px; height: 25px;"/><span
-                                    style="position: relative;bottom: 7px;margin-left: 3px;" class="rvlink">Скачать изображение дома (3 МБ)</span></a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>-->
         <!--<div style="width: 100%; padding-left: 10px; height:30px; background-color: #fff;">
             <table style="width: 300px;">
                 <tbody>
-                <tr>
-                    <td><a class="rili" href="http://shop.grandline.ru/roofcalc/" target="blank"
-                           alt="Расчёт и раскладка кровли online" title="Расчёт и раскладка кровли online"><img
-                                    src="<?/*= get_template_directory_uri(); */?>/calculator/img/online/roofing.png"
-                                    style="width: 25px; height: 25px;"/><span
-                                    style="position: relative;bottom: 7px;margin-left: 3px;" class="rvlink">Расчёт и раскладка кровли online</span></a>
-                    </td>
-                </tr>
+                <tr><td ><a id="saveimga" class="rili" href="http://grandline.ru/calculator/php/saveimage.php/?zabor=img/doma/dom1vid1/zabor/modul/premplus/ral6005.png&cokol=img/doma/dom1vid1/cokol/cokolmetal/vertical/colorityprint/finestone.png&cokolgarage=img/doma/dom1vid1/cokol-garage/cokolprofnastil/c8/velur/ral8017.png&fasad=img/doma/dom1vid1/fasad/vinil/d44/bezh.png&fasadgarage=img/doma/dom1vid1/fasad-garage/metal/ecobrus/satin/ral9003.png&nalichnikfasad=img/doma/dom1vid1/nalichnikfasad/bezh.png&nalichnikfasadgarage=img/doma/dom1vid1/nalichnikfasad-garage/ral9003.png&startplanka=img/doma/dom1vid1/startplanka/finestone.png&startplankagarage=img/doma/dom1vid1/startplanka-garage/ral8017.png&okna=img/doma/dom1vid1/oknadveri/okna/white.png&oknanalich=img/doma/dom1vid1/oknadveri/oknanalich/sofwt.png&sofity=img/doma/dom1vid1/sofity/sofwt.png&krylco=img/doma/dom1vid1/oknadveri/krylco/sofwt.png&krovlya=img/doma/dom1vid1/krovlya/metal/classic/satin/ral3009.png&krovlyagarage=img/doma/dom1vid1/krovlya-garage/komposit/grandline/chokolad.png&vodostok=img/doma/dom1vid1/vodostok/gl12590/ral9003.png&konek=img/doma/dom1vid1/konek/ral3009.png&konekgarage=img/doma/dom1vid1/konek-garage/chokolad.png&vent=img/doma/dom1vid1/vent/ral3009.png&sneg=img/doma/dom1vid1/sneg/ral3009.png&cvetnik=img/doma/dom1vid1/dop/cvetnik.png&ladder=img/doma/dom1vid1/ladder/ral9006.png&mostik=img/doma/dom1vid1/mostik/ral9006.png&mansardokna=img/doma/dom1vid1/dop/okna.png&chimney=img/doma/dom1vid1/dop/chimney.png&dob_chimney=img/doma/dom1vid1/dob_chimney/ral3009.png&kol_chimney=img/doma/dom1vid1/kol_chimney/ral3009.png&domnvidn=dom1vid1" target="_blank" rel="nofollow" alt="Скачать изображение дома" title="Скачать изображение дома" ><img src="<? /*= get_template_directory_uri(); */ ?>/calculator/img/online/download.png" style="width: 25px; height: 25px;"/><span style="position: relative;bottom: 7px;margin-left: 3px;" class="rvlink">Скачать изображение дома (3 МБ)</span></a></td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="width: 100%; padding-left: 10px; height:30px; background-color: #fff;">
+            <table style="width: 300px;">
+                <tbody>
+                <tr><td ><a class="rili" href="http://shop.grandline.ru/roofcalc/" target="blank"  alt="Расчёт и раскладка кровли online" title="Расчёт и раскладка кровли online" ><img src="<? /*= get_template_directory_uri(); */ ?>/calculator/img/online/roofing.png" style="width: 25px; height: 25px;"/><span style="position: relative;bottom: 7px;margin-left: 3px;" class="rvlink">Расчёт и раскладка кровли online</span></a></td></tr>
                 </tbody>
             </table>
         </div>-->
     </div>
 </div>
 <!-- end #columnparams-->
+<!--<div id="original_link" style="z-index: 20;display: block;background-color:#fff;position: fixed; left: 90px;bottom:0px;width: 250px; height:25px;"><a href="http://grandline.ru/calculator" target="blank" style="color: #004AE8;position: absolute;bottom: 2px;margin-left: 100px;" alt="Подбор кровли, фасада Grabdline" title="Подбор кровли, фасада Grabdline">grandline.ru/calculator</a><div id="vk_like"></div>-->
 <div id="original_link"
      style="z-index: 20;/*display: none;*/background-color:#fff;position: fixed; left: 90px;bottom:0px;width: 250px; height:25px;">
     <a href="https://vk.com/public160361618" target="blank"
@@ -1764,17 +1708,25 @@
     </script>
 </div>
 
+<style>
+    #columnparams {
+        display: none!important;
+    }
+</style>
+<!--
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
 
 <script type="text/javascript">
-    /*jQuery( document ).ready(function() {
-        var href_saveimga = jQuery('#saveimga').attr('href');
-        jQuery('#saveimga').attr('href', '');
-        jQuery("#saveimga").click(function (event) {
-            event.preventDefault();
-            window.open(href_saveimga, '_blank');
-        });
-    });*/
-</script>
+  VK.init({apiId: 5005544, onlyWidgets: true});
+ </script>
+
+
+
+ <script type="text/javascript">
+VK.Widgets.Like("vk_like", {type: "mini"});
+ </script></div>
+-->
+
 
 <!--<div id="cb_serv_wr">
    <div class="cbs_cont">

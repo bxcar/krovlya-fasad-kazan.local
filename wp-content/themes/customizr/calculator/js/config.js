@@ -1898,31 +1898,31 @@ var ar_element_exist_color_sofity = [
 
 /* *********************** фасад в таблице ************ */
 var ar_fasad_text = {
-	'metal_ecobrus' : '<a href="http://www.grandline.ru/shop/fasad/metallicheskij-sajding/metallosajding-ekobrus-gl/" target="blank" class="infa" alt="Металлический сайдинг «ЭкоБрус GL»" title="Металлический сайдинг «ЭкоБрус GL»">Металлический сайдинг «ЭкоБрус GL»</a>',
-	'metal_blockhouse' : '<a href="http://www.grandline.ru/shop/fasad/metallicheskij-sajding/metallosajding-blok-haus-gl/" target="blank" class="infa" alt="Металлический сайдинг «Блок-хаус»" title="Металлический сайдинг «Блок-хаус»">Металлический сайдинг «Блок-хаус»</a>',
-	'metal_korabel' : '<a href="http://www.grandline.ru/shop/fasad/metallicheskij-sajding/korabelnaya-doska-grand-line/" target="blank" class="infa" alt="Металлический сайдинг «Корабельная доска»" title="Металлический сайдинг «Корабельная доска»">Металлический сайдинг «Корабельная доска»</a>',
-	'metal_vertical' : '<a href="http://www.grandline.ru/shop/fasad/metallicheskij-sajding/vertikal-grand-line/" target="blank" class="infa" alt="Металлический сайдинг «Вертикаль GL»" title="Металлический сайдинг «Вертикаль GL»">Металлический сайдинг «Вертикаль GL»</a>',
-	'vinil_d4' : '<a href="http://www.grandline.ru/shop/fasad/sayding-viniloviy/sibirskij-brus/" target="blank" class="infa" alt="Виниловый сайдинг D4" title="Виниловый сайдинг D4">Виниловый сайдинг D4</a>',
-	'vinil_d44' : '<a href="http://www.grandline.ru/shop/fasad/sayding-viniloviy/korabelnyj-brus/" target="blank" class="infa" alt="Виниловый сайдинг D4,4" title="Виниловый сайдинг D4,4">Виниловый сайдинг D4,4</a>',
-	'vinil_blockhouse' : '<a href="http://www.grandline.ru/shop/fasad/sayding-viniloviy/karelskij-brus/" target="blank" class="infa" alt="Виниловый сайдинг «Блок-хаус» D4,8" title="Виниловый сайдинг «Блок-хаус» D4,8">Виниловый сайдинг «Блок-хаус» D4,8</a>',
-	'vinil_vertical' : '<a href="http://www.grandline.ru/shop/fasad/sayding-viniloviy/sajding-vinilovyj-baltijskij/" target="blank" class="infa" alt="Виниловый вертикальный сайдинг S6,3" title="Виниловый вертикальный сайдинг S6,3">Виниловый вертикальный сайдинг S6,3</a>',
+	'metal_ecobrus' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/saiding-metallicheskiy-kazan/" target="blank" class="infa" alt="Металлический сайдинг «ЭкоБрус GL»" title="Металлический сайдинг «ЭкоБрус GL»">Металлический сайдинг «ЭкоБрус GL»</a>',
+	'metal_blockhouse' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/saiding-metallicheskiy-kazan/" target="blank" class="infa" alt="Металлический сайдинг «Блок-хаус»" title="Металлический сайдинг «Блок-хаус»">Металлический сайдинг «Блок-хаус»</a>',
+	'metal_korabel' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/saiding-metallicheskiy-kazan/" target="blank" class="infa" alt="Металлический сайдинг «Корабельная доска»" title="Металлический сайдинг «Корабельная доска»">Металлический сайдинг «Корабельная доска»</a>',
+	'metal_vertical' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/saiding-metallicheskiy-kazan/" target="blank" class="infa" alt="Металлический сайдинг «Вертикаль GL»" title="Металлический сайдинг «Вертикаль GL»">Металлический сайдинг «Вертикаль GL»</a>',
+	'vinil_d4' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/viniloviy-saiding-kazan/" target="blank" class="infa" alt="Виниловый сайдинг D4" title="Виниловый сайдинг D4">Виниловый сайдинг D4</a>',
+	'vinil_d44' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/viniloviy-saiding-kazan/" target="blank" class="infa" alt="Виниловый сайдинг D4,4" title="Виниловый сайдинг D4,4">Виниловый сайдинг D4,4</a>',
+	'vinil_blockhouse' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/viniloviy-saiding-kazan/" target="blank" class="infa" alt="Виниловый сайдинг «Блок-хаус» D4,8" title="Виниловый сайдинг «Блок-хаус» D4,8">Виниловый сайдинг «Блок-хаус» D4,8</a>',
+	'vinil_vertical' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/viniloviy-saiding-kazan/" target="blank" class="infa" alt="Виниловый вертикальный сайдинг S6,3" title="Виниловый вертикальный сайдинг S6,3">Виниловый вертикальный сайдинг S6,3</a>',
 	'brick_norm' : '<span >Кирпич</span>'
 };
 
 /* *********************** кровля в таблице ************ */
 var ar_krovlya_text = {
-	'metal_kvintaplus' : '<a href="http://www.grandline.ru/shop/krovlya/metallocherepitsa/metallocherepica-kvintaplus/" target="blank" class="infa" alt="Металлочерепица Kvintaplus" title="Металлочерепица Kvintaplus">Металлочерепица Kvintaplus</a>',
-	'metal_classic' : '<a href="http://www.grandline.ru/shop/krovlya/metallocherepitsa/metallocherepica-classic/" target="blank" class="infa" alt="Металлочерепица Classic" title="Металлочерепица Classic">Металлочерепица Classic</a>',
-	'metal_kredo' : '<a href="http://www.grandline.ru/shop/krovlya/metallocherepitsa/metallocherepica-kredo/" target="blank" class="infa" alt="Металлочерепица Kredo" title="Металлочерепица Kredo">Металлочерепица Kredo</a>',
-	'metal_quadroprofi' : '<a href="http://www.grandline.ru/shop/krovlya/metallocherepitsa/metallocherepica-quadro-profi/" target="blank" class="infa" alt="Металлочерепица Quadro Profi" title="Металлочерепица Quadro Profi">Металлочерепица Quadro Profi</a>',
-	'falcevaya_klickfalc' : '<a href="http://www.grandline.ru/shop/krovlya/falcevaya-krovlya/klikfalc/" target="blank" class="infa" alt="Фальцевая кровля Кликфальц" title="Фальцевая кровля Кликфальц">Фальцевая кровля Кликфальц</a>',
-	'profnastil_10r' : '<a href="http://www.grandline.ru/shop/krovlya/krovelnyj-profnastil/gl-10r/" target="blank" class="infa" alt="Кровельный профнастил GL-10R" title="Кровельный профнастил GL-10R">Кровельный профнастил GL-10R</a>',
-	'profnastil_20r' : '<a href="http://www.grandline.ru/shop/krovlya/krovelnyj-profnastil/gl-20r/" target="blank" class="infa" alt="Кровельный профнастил GL-20R" title="Кровельный профнастил GL-20R">Кровельный профнастил GL-20R</a>',
-	'profnastil_21r' : '<a href="http://www.grandline.ru/shop/krovlya/krovelnyj-profnastil/gl-21r/" target="blank" class="infa" alt="Кровельный профнастил GL-21R" title="Кровельный профнастил GL-21R">Кровельный профнастил GL-21R</a>',
-	'profnastil_35r' : '<a href="http://www.grandline.ru/shop/krovlya/krovelnyj-profnastil/gl-35r/" target="blank" class="infa" alt="Кровельный профнастил GL-35r" title="Кровельный профнастил GL-35r">Кровельный профнастил GL-35r</a>',
-	'profnastil_60r' : '<a href="http://www.grandline.ru/shop/krovlya/krovelnyj-profnastil/gl-60r/" target="blank" class="infa" alt="Кровельный профнастил GL-60r" title="Кровельный профнастил GL-60r">Кровельный профнастил GL-60r</a>',
-	'profnastil_75r' : '<a href="http://www.grandline.ru/shop/krovlya/krovelnyj-profnastil/gl-75r/" target="blank" class="infa" alt="Кровельный профнастил GL-75r" title="Кровельный профнастил GL-75r">Кровельный профнастил GL-75r</a>',
-	'komposit_grandline' : '<a href="http://www.grandline.ru/shop/krovlya/kompozitnaya-cherepica/grand-line/" target="blank" class="infa" alt="Композитная черепица Grand Line" title="Композитная черепица Grand Line">Композитная черепица Grand Line</a>'
+	'metal_kvintaplus' : '<a href="http://кровля-фасад-казань.рф/metallocherepica-kazan/metallocherepica_kvinta/" target="blank" class="infa" alt="Металлочерепица Kvintaplus" title="Металлочерепица Kvintaplus">Металлочерепица Kvintaplus</a>',
+	'metal_classic' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/metallocherepica-kazan/" target="blank" class="infa" alt="Металлочерепица Classic" title="Металлочерепица Classic">Металлочерепица Classic</a>',
+	'metal_kredo' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/metallocherepica-kazan/metallocherepica_kredo/" target="blank" class="infa" alt="Металлочерепица Kredo" title="Металлочерепица Kredo">Металлочерепица Kredo</a>',
+	'metal_quadroprofi' : '<a href="http://кровля-фасад-казань.рф/metallocherepica-kazan/metallocherepica_kaskad/" target="blank" class="infa" alt="Металлочерепица Quadro Profi" title="Металлочерепица Quadro Profi">Металлочерепица Quadro Profi</a>',
+	'falcevaya_klickfalc' : '<a href="http://кровля-фасад-казань.рф/falcevaya-krovlya-kazan" target="blank" class="infa" alt="Фальцевая кровля Кликфальц" title="Фальцевая кровля Кликфальц">Фальцевая кровля Кликфальц</a>',
+	'profnastil_10r' : '<a href="http://кровля-фасад-казань.рф/profnastil-kazan/profnastil_s8_kazan/" target="blank" class="infa" alt="Кровельный профнастил GL-10R" title="Кровельный профнастил GL-10R">Кровельный профнастил GL-10R</a>',
+	'profnastil_20r' : '<a href="http://кровля-фасад-казань.рф/profnastil-kazan/profnastil_s20_v_kazani/" target="blank" class="infa" alt="Кровельный профнастил GL-20R" title="Кровельный профнастил GL-20R">Кровельный профнастил GL-20R</a>',
+	'profnastil_21r' : '<a href="http://кровля-фасад-казань.рф/profnastil-kazan/profnastil_s21_v_kazani/" target="blank" class="infa" alt="Кровельный профнастил GL-21R" title="Кровельный профнастил GL-21R">Кровельный профнастил GL-21R</a>',
+	'profnastil_35r' : '<a href="http://кровля-фасад-казань.рф/profnastil-kazan/profnastil_s35_v_kazani/" target="blank" class="infa" alt="Кровельный профнастил GL-35r" title="Кровельный профнастил GL-35r">Кровельный профнастил GL-35r</a>',
+	'profnastil_60r' : '<a href="http://кровля-фасад-казань.рф/profnastil-kazan/" target="blank" class="infa" alt="Кровельный профнастил GL-60r" title="Кровельный профнастил GL-60r">Кровельный профнастил GL-60r</a>',
+	'profnastil_75r' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/profnastil-kazan/" target="blank" class="infa" alt="Кровельный профнастил GL-75r" title="Кровельный профнастил GL-75r">Кровельный профнастил GL-75r</a>',
+	'komposit_grandline' : '<a href="http://xn-----7kcabait3awgg9ac3av3c2jub.xn--p1ai/kompozitnaya-cherepica-v-kazani/" target="blank" class="infa" alt="Композитная черепица" title="Композитная черепица">Композитная черепица</a>'
 };
 
 
@@ -1986,19 +1986,19 @@ var ar_color_text = {
 
 /* *********************** покрытия в таблице ************ */
 var ar_typepokr_text = {
-	'atlas' : '<a href="http://www.grandline.ru/documentation/atlas/" target="blank" class="infa" alt="Полиэстер" title="Полиэстер">Полиэстер</a>',
-	'quarzit' : '<a href="http://www.grandline.ru/documentation/quarzit/" target="blank" class="infa" alt="Quarzit" title="Quarzit">Quarzit</a>',
-	'quarzitlite' : '<a href="http://www.grandline.ru/documentation/quarzitlite/" target="blank" class="infa" alt="Quarzit Lite" title="Quarzit Lite">Quarzit Lite</a>',
-	'colorityprint' : '<a href="http://www.grandline.ru/documentation/colorityprint/" target="blank" class="infa" alt="Colority Print" title="Colority Print">Colority Print</a>',
-	'safari' : '<a href="http://www.grandline.ru/documentation/safari/" target="blank" class="infa" alt="Safari" title="Safari">Safari</a>'
+	'atlas' : '<a href="#" target="blank" class="infa" alt="Полиэстер" title="Полиэстер">Полиэстер</a>',
+	'quarzit' : '<a href="#" target="blank" class="infa" alt="Quarzit" title="Quarzit">Quarzit</a>',
+	'quarzitlite' : '<a href="#" target="blank" class="infa" alt="Quarzit Lite" title="Quarzit Lite">Quarzit Lite</a>',
+	'colorityprint' : '<a href="#" target="blank" class="infa" alt="Colority Print" title="Colority Print">Colority Print</a>',
+	'safari' : '<a href="#" target="blank" class="infa" alt="Safari" title="Safari">Safari</a>'
 };
 
 /* *********************** водосток в таблице ************ */
 var ar_vodostok_text = {
-	'gl12590':'<a href="http://www.grandline.ru/shop/vodostok/125x90/" class="infa" alt="Водосточная система Grand Line 125x90" title="Водосточная система Grand Line 125x90" target="blank">Grand Line 125x90</a>'
+	'gl12590':'<a href="http://кровля-фасад-казань.рф/vodostok-vodostochnye-sistemy/" class="infa" alt="Водосточная система 125x90" title="Водосточная система 125x90" target="blank">Водосточная система 125x90</a>'
 	};
 
 /* *********************** ограждения в таблице ************ */
 var ar_zabor_text = {
-	'modul_premplus':'<a href="http://www.grandline.ru/shop/zabory-i-ograzhdeniya/modulnye-ograzhdeniya/premium-plyus/" class="infa" alt="Модульные ограждения Grand Line Премиум Плюс" title="Модульные ограждения Grand Line Премиум Плюс" target="blank">Модульные ограждения Премиум Плюс</a>'
+	'modul_premplus':'<a href="http://кровля-фасад-казань.рф/zabory-ogragdenia/" class="infa" alt="Модульные ограждения Премиум Плюс" title="Модульные ограждения Премиум Плюс" target="blank">Модульные ограждения Премиум Плюс</a>'
 	};

@@ -1709,9 +1709,9 @@
 </div>
 
 <style>
-    #columnparams {
+    /*#columnparams {
         display: none!important;
-    }
+    }*/
 </style>
 <!--
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>

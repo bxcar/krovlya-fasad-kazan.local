@@ -54,8 +54,8 @@ get_header(); ?>
             <td>м</td>
             <td id="amount-1">1278</td>
             <td></td>
-            <td>240.00</td>
-            <td>306,800.00</td>
+            <td id="price-1">240.00</td>
+            <td id="sum-1">306,800.00</td>
         </tr>
         <tr>
             <td>2</td>
@@ -64,8 +64,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-2">426</td>
             <td></td>
-            <td>80.00</td>
-            <td>34,088.89</td>
+            <td id="price-2">80.00</td>
+            <td id="sum-2">34,088.89</td>
         </tr>
         <tr>
             <td>3</td>
@@ -74,8 +74,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-3">852</td>
             <td></td>
-            <td>53.00</td>
-            <td>45,167.78</td>
+            <td id="price-3">53.00</td>
+            <td id="sum-3">45,167.78</td>
         </tr>
         <tr>
             <td>4</td>
@@ -84,8 +84,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-4">426</td>
             <td></td>
-            <td>27.00</td>
-            <td>11,505.00</td>
+            <td id="price-4">27.00</td>
+            <td id="sum-4">11,505.00</td>
         </tr>
         <tr>
             <td>5</td>
@@ -94,8 +94,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-5">852</td>
             <td></td>
-            <td>14.00</td>
-            <td>11,931.11</td>
+            <td id="price-5">14.00</td>
+            <td id="sum-5">11,931.11</td>
         </tr>
         <tr>
             <td>6</td>
@@ -104,8 +104,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-6">2131</td>
             <td></td>
-            <td>20.00</td>
-            <td>42,611.11</td>
+            <td id="price-6">20.00</td>
+            <td id="sum-6">42,611.11</td>
         </tr>
         <tr>
             <td>7</td>
@@ -114,8 +114,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-7">1704</td>
             <td></td>
-            <td>7.00</td>
-            <td>11,931.11</td>
+            <td id="price-7">7.00</td>
+            <td id="sum-7">11,931.11</td>
         </tr>
         <tr class="bottom-line">
             <td></td>
@@ -151,8 +151,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-8">2557</td>
             <td>500</td>
-            <td>3.50</td>
-            <td>8,948.33</td>
+            <td id="price-8">3.50</td>
+            <td id="sum-8">8,948.33</td>
         </tr>
         <tr>
             <td>9</td>
@@ -161,8 +161,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-9">4261</td>
             <td>500</td>
-            <td>2.70</td>
-            <td>11,505.00</td>
+            <td id="price-9">2.70</td>
+            <td id="sum-9">11,505.00</td>
         </tr>
         <tr>
             <td>10</td>
@@ -171,8 +171,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-10">1704</td>
             <td>300</td>
-            <td>18.20</td>
-            <td>31,020.89</td>
+            <td id="price-10">18.20</td>
+            <td id="sum-10">31,020.89</td>
         </tr>
         <tr class="bottom-line">
             <td></td>
@@ -208,8 +208,8 @@ get_header(); ?>
             <td>м3</td>
             <td id="amount-11">84</td>
             <td></td>
-            <td></td>
-            <td>0</td>
+            <td id="price-11">100</td>
+            <td id="sum-11">0</td>
         </tr>
         <tr>
             <td>12</td>
@@ -218,8 +218,8 @@ get_header(); ?>
             <td>м2</td>
             <td id="amount-12">882</td>
             <td></td>
-            <td></td>
-            <td>0</td>
+            <td id="price-12">100</td>
+            <td id="sum-12">0</td>
         </tr>
         <tr>
             <td>13</td>
@@ -228,8 +228,8 @@ get_header(); ?>
             <td>шт</td>
             <td id="amount-13">5369</td>
             <td></td>
-            <td></td>
-            <td>0.00</td>
+            <td id="price-13">100</td>
+            <td id="sum-13">0.00</td>
         </tr>
         <tr>
             <td>14</td>
@@ -238,8 +238,8 @@ get_header(); ?>
             <td>м2</td>
             <td id="amount-14">767</td>
             <td></td>
-            <td></td>
-            <td>0.00</td>
+            <td id="price-14">100</td>
+            <td id="sum-14">0.00</td>
         </tr>
         <tr class="bottom-line">
             <td></td>

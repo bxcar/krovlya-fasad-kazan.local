@@ -33,7 +33,7 @@ get_header(); ?>
         </tr>
     </table>
 
-    <table class="main-table table2">
+    <table class="main-table table2 table2-desktop">
         <tr>
             <th class="mainth" colspan="8">Подконструкция</th>
         </tr>
@@ -130,7 +130,261 @@ get_header(); ?>
         </tr>
     </table>
 
-    <table class="main-table table2">
+
+<!--start first table2 mobile-->
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Подконструкция</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Профиль Т</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">SP-1.1</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">м</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-1-mob">1278</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-1-mob"><?= get_field('table_prices')[0]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-1-mob">306,800.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Подконструкция</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Кронштейн большой</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">KL-150 Б</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-2-mob">426</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-2-mob"><?= get_field('table_prices')[1]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-2-mob">34,080.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Подконструкция</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Кронштейн малый</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">KL-150 М</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-3-mob">852</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-3-mob"><?= get_field('table_prices')[2]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-3-mob">45,156.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Подконструкция</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Терморазрыв большой</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">SD-9.1</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-4-mob">426</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-4-mob"><?= get_field('table_prices')[3]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-4-mob">11,502.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Подконструкция</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Терморазрыв малый</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">SD-9.2</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-5-mob">852</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-5-mob"><?= get_field('table_prices')[4]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-5-mob">11,928.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Подконструкция</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Кляммер нержавеющий рядовой</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">SD-8.1</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-6-mob">2131</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-6-mob"><?= get_field('table_prices')[5]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-6-mob">42,620.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Подконструкция</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Шайба-пластина</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">SD-7.4</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-7-mob">1704</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-7-mob"><?= get_field('table_prices')[6]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-7-mob">11,928.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr class="bottom-line">
+            <td class="first-footer-title">Стоимость подконструкции системы "SL-100"</td>
+            <td id="total-sum-1-mob">464,035.00</td>
+        </tr>
+        <tr class="bottom-line last-line">
+            <td class="first-footer-title">Стоимость подконструкции системы "SL-100" на 1 м2</td>
+            <td id="total-sum-1-m-mob">605.00</td>
+        </tr>
+    </table>
+    <!--end first table2 mobile-->
+
+
+
+    <table class="main-table table2 table2-desktop">
         <tr>
             <th class="mainth" colspan="8">Крепеж</th>
         </tr>
@@ -186,6 +440,121 @@ get_header(); ?>
             <td id="total-sum-2-m">67.11</td>
         </tr>
     </table>
+
+    <!--start second table2 mobile-->
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Крепеж</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Заклепка</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">K14 5x12</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-8-mob">2557</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td">500</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-8-mob"><?= get_field('table_prices')[7]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-8-mob">8,949.50</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Крепеж</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Заклепка</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">K6 3x8</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-9-mob">4261</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td">500</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-9-mob"><?= get_field('table_prices')[8]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-9-mob">11,504.70</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Крепеж</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Фасадный анкерный дюбель</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">10*100F</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-10-mob">1704</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td">300</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-10-mob"><?= get_field('table_prices')[9]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-10-mob">31,012.80</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr class="bottom-line">
+            <td class="first-footer-title">Стоимость крепежа системы "SL-100"</td>
+            <td id="total-sum-2-mob">51,467.00</td>
+        </tr>
+        <tr class="bottom-line last-line">
+            <td class="first-footer-title">Стоимость крепежа системы "SL-100" на 1 м2</td>
+            <td id="total-sum-2-m-mob">67.10</td>
+        </tr>
+    </table>
+    <!--end second table2 mobile-->
 
     <table class="main-table table2">
         <tr>

@@ -22,14 +22,14 @@ get_header(); ?>
             <td>Количество м2</td>
             <td>
                 <form class="meters-amount-form" action="/" method="post">
-                    <input title="" class="meters-amount" type="number" name="meters" value="100"  min="1" required>
+                    <input id="meters-amount" title="" class="meters-amount" type="number" name="meters" value="767"  min="1" required>
                     <input type="submit" style="display: none;">
                 </form>
             </td>
         </tr>
         <tr>
             <td>Количество плитки</td>
-            <td>2131</td>
+            <td id="tiles-number">2131</td>
         </tr>
     </table>
 
@@ -52,7 +52,7 @@ get_header(); ?>
             <td>Профиль Т</td>
             <td>SP-1.1</td>
             <td>м</td>
-            <td>1278</td>
+            <td id="amount-1">1278</td>
             <td></td>
             <td>240.00</td>
             <td>306,800.00</td>
@@ -62,7 +62,7 @@ get_header(); ?>
             <td>Кронштейн большой</td>
             <td>KL-150 Б</td>
             <td>шт</td>
-            <td>426</td>
+            <td id="amount-2">426</td>
             <td></td>
             <td>80.00</td>
             <td>34,088.89</td>
@@ -72,7 +72,7 @@ get_header(); ?>
             <td>Кронштейн малый</td>
             <td>KL-150 М</td>
             <td>шт</td>
-            <td>852</td>
+            <td id="amount-3">852</td>
             <td></td>
             <td>53.00</td>
             <td>45,167.78</td>
@@ -82,7 +82,7 @@ get_header(); ?>
             <td>Терморазрыв большой</td>
             <td>SD-9.1</td>
             <td>шт</td>
-            <td>426</td>
+            <td id="amount-4">426</td>
             <td></td>
             <td>27.00</td>
             <td>11,505.00</td>
@@ -92,7 +92,7 @@ get_header(); ?>
             <td>Терморазрыв малый</td>
             <td>SD-9.2</td>
             <td>шт</td>
-            <td>852</td>
+            <td id="amount-5">852</td>
             <td></td>
             <td>14.00</td>
             <td>11,931.11</td>
@@ -102,7 +102,7 @@ get_header(); ?>
             <td>Кляммер нержавеющий рядовой</td>
             <td>SD-8.1</td>
             <td>шт</td>
-            <td>2131</td>
+            <td id="amount-6">2131</td>
             <td></td>
             <td>20.00</td>
             <td>42,611.11</td>
@@ -112,7 +112,7 @@ get_header(); ?>
             <td>Шайба-пластина</td>
             <td>SD-7.4</td>
             <td>шт</td>
-            <td>1704</td>
+            <td id="amount-7">1704</td>
             <td></td>
             <td>7.00</td>
             <td>11,931.11</td>
@@ -149,7 +149,7 @@ get_header(); ?>
             <td>Заклепка</td>
             <td>K14 5x12</td>
             <td>шт</td>
-            <td>2557</td>
+            <td id="amount-8">2557</td>
             <td>500</td>
             <td>3.50</td>
             <td>8,948.33</td>
@@ -159,7 +159,7 @@ get_header(); ?>
             <td>Заклепка</td>
             <td>K6 3x8</td>
             <td>шт</td>
-            <td>4261</td>
+            <td id="amount-9">4261</td>
             <td>500</td>
             <td>2.70</td>
             <td>11,505.00</td>
@@ -169,7 +169,7 @@ get_header(); ?>
             <td>Фасадный анкерный дюбель</td>
             <td>10*100F</td>
             <td>шт</td>
-            <td>1704</td>
+            <td id="amount-10">1704</td>
             <td>300</td>
             <td>18.20</td>
             <td>31,020.89</td>
@@ -206,7 +206,7 @@ get_header(); ?>
             <td>Утеплитель</td>
             <td>0.1</td>
             <td>м3</td>
-            <td>84</td>
+            <td id="amount-11">84</td>
             <td></td>
             <td></td>
             <td>0</td>
@@ -216,7 +216,7 @@ get_header(); ?>
             <td>Негорючая ткань "TEND KM-O"</td>
             <td>1.15</td>
             <td>м2</td>
-            <td>882</td>
+            <td id="amount-12">882</td>
             <td></td>
             <td></td>
             <td>0</td>
@@ -226,7 +226,7 @@ get_header(); ?>
             <td>Анкера для утеплителя</td>
             <td>7</td>
             <td>шт</td>
-            <td>5369</td>
+            <td id="amount-13">5369</td>
             <td></td>
             <td></td>
             <td>0.00</td>
@@ -236,7 +236,7 @@ get_header(); ?>
             <td>Керамогранит серо-бежевый соль-перец</td>
             <td>1.1</td>
             <td>м2</td>
-            <td>767</td>
+            <td id="amount-14">767</td>
             <td></td>
             <td></td>
             <td>0.00</td>
@@ -267,5 +267,5 @@ get_header(); ?>
         </tr>
     </table>
 </div>
-
+<script src="<?= get_template_directory_uri(); ?>/inc/assets/js/script-for-tables.js"></script>
 <?php get_footer(); ?>

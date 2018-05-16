@@ -556,7 +556,7 @@ get_header(); ?>
     </table>
     <!--end second table2 mobile-->
 
-    <table class="main-table table2">
+    <table class="main-table table2 table2-desktop">
         <tr>
             <th class="mainth" colspan="8">Утеплитель. Анкер. Керамогранит.</th>
         </tr>
@@ -623,7 +623,156 @@ get_header(); ?>
         </tr>
     </table>
 
-    <table class="main-table table2">
+    <!--start third table2 mobile-->
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Утеплитель. Анкер. Керамогранит.</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Утеплитель</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">0.1</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">м3</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-11-mob">84</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-11-mob"><?= get_field('table_prices')[10]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-11-mob">8,400.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Утеплитель. Анкер. Керамогранит.</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Негорючая ткань "TEND KM-O"</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">1.15</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">м2</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-12-mob">882</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-12-mob"><?= get_field('table_prices')[11]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-12-mob">88,200.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Утеплитель. Анкер. Керамогранит.</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Анкера для утеплителя</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">7</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">шт</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-13-mob">5369</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-13-mob"><?= get_field('table_prices')[12]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-13-mob">536,900.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr>
+            <th class="mainth" colspan="8">Утеплитель. Анкер. Керамогранит.</th>
+        </tr>
+        <tr>
+            <th class="mob-th">Наименование</th>
+            <td class="mob-td">Керамогранит серо-бежевый соль-перец</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Артикул</th>
+            <td class="mob-td">1.1</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Ед. изм.</th>
+            <td class="mob-td">м2</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Общее кол-во</th>
+            <td class="mob-td" id="amount-14-mob">767</td>
+        </tr>
+        <tr>
+            <th class="mob-th">Кол-во в упак.</th>
+            <td class="mob-td"></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Цена с НДС за ед. (руб)</th>
+            <td class="mob-td" id="price-14-mob"><?= get_field('table_prices')[13]['price']; ?></td>
+        </tr>
+        <tr>
+            <th class="mob-th">Сумма с НДС (руб)</th>
+            <td class="mob-td" id="sum-14-mob">76,700.00</td>
+        </tr>
+    </table>
+
+    <table class="main-table table2 table2-mobile">
+        <tr class="bottom-line">
+            <td class="first-footer-title">Стоимость утеплителей системы "SL-100"</td>
+            <td id="total-sum-3-mob">710,200.00</td>
+        </tr>
+        <tr class="bottom-line last-line">
+            <td class="first-footer-title">Стоимость утеплителей системы "SL-100" на 1 м2</td>
+            <td id="total-sum-3-m-mob">925.95</td>
+        </tr>
+    </table>
+    <!--end third table2 mobile-->
+
+    <table class="main-table table2 table2-desktop">
         <tr class="bottom-line">
             <td colspan="6" class="first-footer-title">Стоимость системы "SL-100"</td>
             <td></td>
@@ -635,6 +784,19 @@ get_header(); ?>
             <td id="total-sum-4-m">672.11</td>
         </tr>
     </table>
+
+    <!--start fourth table2 mobile-->
+    <table class="main-table table2 table2-mobile">
+        <tr class="bottom-line">
+            <td class="first-footer-title">Стоимость системы "SL-100"</td>
+            <td id="total-sum-4-mob">1,225,601.00</td>
+        </tr>
+        <tr class="bottom-line last-line">
+            <td class="first-footer-title">Стоимость системы "SL-100" на 1 м2</td>
+            <td id="total-sum-4-m-mob">1,597.92</td>
+        </tr>
+    </table>
+    <!--end fourth table2 mobile-->
 </div>
 <script src="<?= get_template_directory_uri(); ?>/inc/assets/js/script-for-tables.js"></script>
 <?php get_footer(); ?>

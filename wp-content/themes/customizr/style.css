@@ -172,3 +172,9 @@
         /*line-height: 1.5em;*/
     }
 }
+
+@media (max-width: 600px) {
+    .table2-mobile .bottom-line td {
+        line-height: 1.5em;
+    }
+}

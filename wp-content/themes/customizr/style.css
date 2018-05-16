@@ -55,10 +55,18 @@
 .table2 {
     width: 1000px;
     border-bottom: none;
+    margin-bottom: 40px;
  }
 
 .table2 td {
     text-align: center;
+}
+
+.table2 tr > td:nth-child(3),
+.table2 tr > td:nth-child(5),
+.table2 tr > td:nth-child(7),
+.table1  tr > td:last-child {
+    font-weight: bold;
 }
 
 .table2 .mainth {

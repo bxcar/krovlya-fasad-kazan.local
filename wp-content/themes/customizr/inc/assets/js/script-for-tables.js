@@ -20,14 +20,53 @@ jQuery(document).ready(function () {
         jQuery('#amount-13').text(Math.ceil(jQuery(this).val() * 7).toFixed(0));
         jQuery('#amount-14').text(Math.ceil(jQuery(this).val() * 1).toFixed(0));
 
-        var sum = 0;
 
+
+        var sum = 0;
         for (var i = 1; i <= 14; i++) {
             sum = (jQuery('#amount-' + i).text() * jQuery('#price-' + i).text()).toFixed(2);
             jQuery('#sum-' + i).text(sum.toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,'));
         }
 
+
+
+        var total_sum_1 = 0;
+        for (i = 1; i <= 7; i++) {
+            total_sum_1 += parseFloat(jQuery('#sum-' + i).text().replace(/,/g, ""));
+        }
+        jQuery('#total-sum-1').text(total_sum_1.toFixed(2).toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,'));
+
+        var total_sum_2 = 0;
+        for (i = 8; i <= 10; i++) {
+            total_sum_2 += parseFloat(jQuery('#sum-' + i).text().replace(/,/g, ""));
+        }
+        jQuery('#total-sum-2').text(total_sum_2.toFixed(2).toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,'));
+
+        var total_sum_3 = 0;
+        for (i = 11; i <= 14; i++) {
+            total_sum_3 += parseFloat(jQuery('#sum-' + i).text().replace(/,/g, ""));
+        }
+        jQuery('#total-sum-3').text(total_sum_3.toFixed(2).toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,'));
+
+        var total_sum_4 = total_sum_1+total_sum_2+total_sum_3;
+        jQuery('#total-sum-4').text(total_sum_4.toFixed(2).toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,'));
+
+
+
+
+        var total_sum_1_m = total_sum_1/jQuery(this).val();
+        jQuery('#total-sum-1-m').text(total_sum_1_m.toFixed(2).toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,'));
+
+        var total_sum_2_m = total_sum_2/jQuery(this).val();
+        jQuery('#total-sum-2-m').text(total_sum_2_m.toFixed(2).toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,'));
+
+        var total_sum_3_m = total_sum_3/jQuery(this).val();
+        jQuery('#total-sum-3-m').text(total_sum_3_m.toFixed(2).toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,'));
+
+        var total_sum_4_m = total_sum_4/jQuery(this).val();
+        jQuery('#total-sum-4-m').text(total_sum_4_m.toFixed(2).toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,'));
     });
 
+    jQuery('#meters-amount').trigger('input');
 
 });

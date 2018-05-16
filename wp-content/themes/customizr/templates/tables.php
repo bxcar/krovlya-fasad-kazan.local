@@ -121,12 +121,12 @@ get_header(); ?>
             <td></td>
             <td colspan="5" class="first-footer-title">Стоимость подконструкции системы "SL-100"</td>
             <td class="total">Итого:</td>
-            <td>464,035.00</td>
+            <td id="total-sum-1">464,035.00</td>
         </tr>
         <tr class="bottom-line last-line">
             <td></td>
             <td colspan="6" class="first-footer-title">Стоимость подконструкции системы "SL-100" на 1 м2</td>
-            <td>605.00</td>
+            <td id="total-sum-1-m">605.00</td>
         </tr>
     </table>
 
@@ -178,12 +178,12 @@ get_header(); ?>
             <td></td>
             <td colspan="5" class="first-footer-title">Стоимость крепежа системы "SL-100"</td>
             <td class="total">Итого:</td>
-            <td>51,474.22</td>
+            <td id="total-sum-2">51,474.22</td>
         </tr>
         <tr class="bottom-line last-line">
             <td></td>
             <td colspan="6" class="first-footer-title">Стоимость крепежа системы "SL-100" на 1 м2</td>
-            <td>67.11</td>
+            <td id="total-sum-2-m">67.11</td>
         </tr>
     </table>
 
@@ -245,12 +245,12 @@ get_header(); ?>
             <td></td>
             <td colspan="5" class="first-footer-title">Стоимость утеплителей системы "SL-100"</td>
             <td class="total">Итого:</td>
-            <td>0.00</td>
+            <td id="total-sum-3">0.00</td>
         </tr>
         <tr class="bottom-line last-line">
             <td></td>
             <td colspan="6" class="first-footer-title">Стоимость утеплителей системы "SL-100" на 1 м2</td>
-            <td>0.00</td>
+            <td id="total-sum-3-m">0.00</td>
         </tr>
     </table>
 
@@ -258,12 +258,12 @@ get_header(); ?>
         <tr class="bottom-line">
             <td colspan="6" class="first-footer-title">Стоимость системы "SL-100"</td>
             <td></td>
-            <td>Итого:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;515,509.22</td>
+            <td>Итого:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span  id="total-sum-4">515,509.22</span></td>
         </tr>
         <tr class="bottom-line last-line">
             <td colspan="6" class="first-footer-title">Стоимость системы "SL-100" на 1 м2</td>
             <td></td>
-            <td>672.11</td>
+            <td id="total-sum-4-m">672.11</td>
         </tr>
     </table>
 </div>
